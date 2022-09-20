@@ -1,0 +1,11 @@
+{
+  "name": "jienigui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:powderbluen/shopping.git",
+  "author": "powderblue <zxp1937516045@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1"
+  }
+}
