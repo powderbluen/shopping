@@ -54,7 +54,11 @@
         "setting" : {
             "urlCheck" : false
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        "permission" : {},
+        "uniStatistics" : {
+            "enable" : false
+        }
     },
     "vueVersion" : "2"
 }

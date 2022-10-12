@@ -49,7 +49,9 @@
 </template>
 
 <script>
+	import badgeMix from '@/mixins/tabber-Badge.js'
 	export default {
+		mixins:[badgeMix],
 		data() {
 			return {
 				swiperList:[],

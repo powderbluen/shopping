@@ -37,6 +37,11 @@
             
         }
     ],
+	"requiredPrivateInfos":[
+		"getFuzzylocation",
+		"choosePoi",
+		"chooseAddress"
+	],
 	"subPackages": [
 		{
 			"root": "subpkg",

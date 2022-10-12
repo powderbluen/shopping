@@ -133,6 +133,7 @@
 				this.$emit('blur', event)
 				let value = event.detail.value;
 				if (isNaN(value)) {
+					// 如果参数为非数值则自动转为设定的最小值
 					this.inputValue = this.min;
 					return;
 				}
