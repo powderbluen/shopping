@@ -5,7 +5,7 @@ export default {
 		//收货地址
 		address:JSON.parse(uni.getStorageSync('address') || '{}'),
 		// 用户登录凭证
-		token:uni.setStorageSync('token') || '',
+		token:uni.getStorageSync('token') || '',
 		// 用户信息
 		userInfo:JSON.parse(uni.getStorageSync('userInfo') || '{}'),
 		redirectInfo:null

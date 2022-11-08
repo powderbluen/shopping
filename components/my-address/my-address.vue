@@ -54,7 +54,7 @@
 			      // this.address = succ
 				  this.updateAddress(succ)
 			    }
-				console.log(err)
+				// console.log(err)
 				console.log(succ)
 			  }
 		},

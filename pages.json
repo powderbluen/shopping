@@ -38,10 +38,10 @@
         }
     ],
 	"requiredPrivateInfos":[
-		"getFuzzylocation",
-		"choosePoi",
-		"chooseAddress"
-	],
+			"chooseAddress",
+			"chooseLocation",
+			"choosePoi"
+		],
 	"subPackages": [
 		{
 			"root": "subpkg",
